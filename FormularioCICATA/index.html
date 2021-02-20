@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Montez&display=swap" rel="stylesheet">
+    <title>CICATA LEGARIA </title>
+</head>
+<body>
+    <header class="header">
+      <div >  
+         <a href="https://www.ipn.mx/"
+         target="_blank">
+         <img src="img/IPN.jpg"
+         alt="logo"
+         class="headerImagen" 
+         />
+         </a>
+      </div>
+
+
+      <div class="texto">
+        <span class="textoIPN">
+        INSTITUTO POLITÉCNICO NACIONAL</span>
+        <span class="textoLegaria">
+            CENTRO DE INVESTIGACIÓN EN CIENCIA APLICADA
+            Y TECNOLOGÍA AVANZADA UNIDAD LEGARIA
+        </span>
+      </div>
+
+      <div >
+        <a href="https://www.cicata.ipn.mx/"
+        target="_blank">
+        <img src="img/legaria.png"
+        alt="legaria"
+        class="legaria"
+        />
+        </a>
+      </div>
+
+    </header>
+
+    <div class="contenedor">
+        <div class="formulario">
+            <article class="fondo">
+            <div class="menu">
+
+            <label for="radio1">INICIO</label>
+            <label for="radio2">CONOCENOS</label>
+            <label for="radio3">FORMULARIO</label>
+            <label for="radio4">CONTACTO</label>
+
+        </div>
+
+        <div class="contenido"  >
+            <input type="radio" name="radio" id="radio1">
+            <div class="tab1">
+            <h2>INICIO</h2>
+            <p >
+                El Centro de Investigación en Ciencia Aplicada y
+                 Tecnología Avanzada (CICATA), Unidad Legaria, 
+                 forma recursos humanos de alta especialidad científica,
+                  tecnológica y educativa, mediante el desarrollo de 
+                  proyectos de investigación, de desarrollo tecnológico 
+                  y de innovación con una visión global, vinculados a
+                   los sectores productivos de bienes y servicios, 
+                   público, social y privado, para atender y contribuir
+                    con pertinencia a la solución de los problemas 
+                    nacionales, a través de capital 
+                    
+                humano especializado y con tecnología avanzada.
+                <br> El CICATA, Unidad Legaria será de vanguardia 
+                en investigación, desarrollo científico, tecnológico
+                 e innovación, que contribuirá al desarrollo global,
+                  a través de sus funciones sustantivas, 
+                con calidad, ética y compromiso social.
+            </p>
+            </div>
+
+            <input type="radio" name="radio" id="radio2">
+            <div class="tab2">
+            <h2>CONOCENOS</h2>
+            <p >
+            
+
+                El Centro de Investigación en Ciencia Aplicada y 
+                Tecnología Avanzada, Unidad Legaria perteneciente
+                 al Instituto Politécnico Nacional como institución 
+                 educativa del Estado mexicano creado por Acuerdo del 
+                 02 de septiembre de 1996 con un solo propósito: 
+                 contribuir al desarrollo y difusión del conocimiento
+                  científico y tecnológico, de conformidad con los
+                   compromisos establecidos por el Plan Nacional de
+                    Desarrollo, el Programa Nacional de Educación y 
+                    los Programas Sectoriales, en condiciones que exigen
+                     una mejor capacidad de respuesta de las 
+                     instituciones dedicadas
+                 a la enseñanza, la investigación y la innovación.
+            </p>
+            </div>
+
+            <input type="radio" name="radio" id="radio3">
+            <div class="tab3">
+            <h2>SOLIITUD DE ADMISIÓN AL PROCESO DE INGRESO
+                AL SEMESTRE A-2021</h2>
+            <h3 >
+                Datos Generales
+            </h3>
+                
+                <label class="BotonMaestria"> Maestria: </label>
+                <input type="text" name="Fmaestria" class="Esp" id="maestria"
+                 placeholder="Escribe a que maestria pertences " required><br><br>
+                
+         
+                <label class="Boton"> Nombre: </label> 
+                <input type="text" name="Fnombre" class="Esp" id="nombre"
+                placeholder="Escribe tu nombre " required><br><br>
+
+                <label class="Boton"> Lugar y Fecha de Nacimiento: </label>
+                <input type="text" name="Fnacimiento" class="Esp" id="lugar"
+                placeholder="Lugar de nacimiento" required>
+                <input type="date" name="Fnacimiento" class="Esp" id="lugar"
+                placeholder="Fecha de nacimiento" required>
+                <br><br>
+
+                <label class="Boton"> Domicilio: </label> 
+                <input type="text" name="Fnombre" class="Esp" id="domicilio"
+                placeholder="Calle " required>
+                <input type="text" name="Fnombre" class="Esp" id="domicilio"
+                placeholder="Colonia" required>
+                <input type="text" name="Fnombre" class="Esp" id="domicilio"
+                placeholder="DelegaciÃ³n" required>
+
+                <label class="Boton"> Número de celular: </label> 
+                <input type="text" name="Fcelular" class="Esp" id="celular"
+                placeholder="Escribe tu celular " required><br><br>
+
+                <label class="Boton"> Nacionalidad: </label>
+                <select  id="nacionalidad" class="Esp" required>
+                <option>Seleccionar</option>
+                <option>Mexicano</option>
+                <option>Extranjero</option>
+                </select><br><br>
+
+
+                <label class="Boton"> Estado Civil: </label>
+                <select  id="estado" class="Esp" required>
+                    <option >Seleccionar</option>
+                    <option >Soltero</option>
+                    <option >Casado</option>
+                    <option >Divorciado</option>
+                    <option >Viudo</option>
+                </select><br><br>
+
+
+                <label class="Boton"> CURP: </label> 
+                <input type="text" class="Esp" name="Fcurp" id="curp" pattern="[A-Z]{1}[AEIOU]{1}[A-Z]{2} 
+                [0-9]{2}(0[1-9]|1[0-2])(0[1-9]|1[0-9]|2[0-9]|3[0-1])[HM]{1}(AS|BC|BS|CC|CS|CH|CL|CM|DF|DG|
+                GT|GR|HG|JC|MC|MN|MS|NT|NL|OC|PL|QT|QR|SP|SL|SR|TC|TS|TL|VZ|YN|ZS|NE)[B-DF-HJ-NP-TV-Z]{3}[0-9A-Z]{1} [0-9]{1} "
+                placeholder="Escribe tu curp " required><br><br>
+   
+    
+                <label class="Boton"> Correo electronico: </label>
+                <input type="text" class="Esp" name="Fcorreo" id="correo"
+                placeholder="Escribe tu correo" minlength="8" required><br><br>
+    
+    
+                <label class="Boton"> Cuenta de skype: </label>
+                <input type="text" class="Esp" name="Fcorreo" id="correo"
+                placeholder="Escribe tu skype " minlength="8" required><br><br>
+     
+                <h3 class="Titulo2">Informacion General</h3><br>
+
+            
+                <label class="Boton"> Institución donde ha realizado sus estudios profesionales: </label>
+                <input type="text" class="Esp" name="Festudios" id="estudios"
+                placeholder="Escribe donde has realizado tus estudios profesionales" required><br><br>
+        
+            
+                <label class="Boton"> Titulado: </label>
+                <input type="text" class="Esp" name="FTitulado" id="Titulado"
+                placeholder="Escribe el titulado" required><br><br>
+        
+    
+                <label class="Boton"> Carrera: </label> 
+                <input type="text" class="Esp" name="FCarrera" id="Carrera"
+                placeholder="Escribe tu Carrera" required><br><br>
+    
+              
+  
+                <label class="Boton"> Pais: </label>
+                <input type="text" class="Esp" name="FPais" id="Pais"
+                placeholder="Escribe donde hiciste tu carrera" required><br><br>
+                
+                
+                <label class="Boton"> Experiencia Profesional: </label>
+                <input type="text" class="Esp" name="FExperencia" id="Experencia"
+                placeholder="Escribe tu tiempo de experencia profesional" required><br><br>
+              
+                
+                <label class="Boton"> Experiencia Docente: </label>
+                <input type="text" class="Esp" name="FExperenciad" id="Experenciad"
+                placeholder="Escribe tu tiempo de experencia como docente" required><br><br>
+                
+                
+                <label class="Boton"> ¿Has asistido a los cursos propedéuticos de este Departamento anteriormente?: </label>
+                <input type="text" class="Esp" name="FExperenciad" id="Experenciad"
+                placeholder="Escribe si o no" required><br><br>
+                
+                
+                <label class="Boton"> ¿En que años?: </label> 
+                <input type="text" class="Esp" name="FAnios" id="Anios"
+                placeholder="Escribe los años que has asistido" required><br><br>
+                
+                <label class="Boton"> Motivo por el cual desea ingresar al Posgrado y a que línea de investigación desea integrarse: </label>
+                <input type="text" class="Esp" name="FMotivo" id="Motivo"
+                placeholder="Escribe tu motivo y a que linea de investigacion vas" required><br><br>
+                
+                
+                <label class="Boton"> Ingrese su CV: </label>
+                <input type="file" class="EspCV" name="FMotivo" id="Motivo"
+                placeholder="Sube tu CV" required><br><br>
+              
+              
+                
+                <input class="boton" type="submit" name="inicio" value="Registrar">
+
+  
+            </div>
+
+            <input type="radio" name="radio" id="radio4">
+            <div class="tab4">
+            <h2>CONTACTO</h2>
+            <p >
+                Calz Legaria 694, Col. Irrigación, 
+                Miguel Hidalgo, 11500 Ciudad de México, CDMX
+                Connmutador: 55 57 29 60 00 / 55 57 29 63 00
+            </p>
+            </div>
+
+        </div>
+        </article>
+    </div>
+    </div>
+</body>
+</html>
